@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width:1200px;
+    height:1000px;
+    margin: auto;
+    
+}
+
+.logo{
+    width: 4%;
+    height:5%;
+    float: left;
+    background-image: url(../images/w3logo.png);
+    background-size: 50px 50px;
+    background-position:center;
+    background-repeat: no-repeat;
+
+}
+.logo:hover{
+    background-color: rgb(32, 148, 71);
+   
+}
+/* topbar starts */
+.topbar{
+    width: 95%;
+    height:4%;
+    float: left;
+}
+
+.topbar ul li{
+    display: inline-block;
+    padding-top: 12px;
+    text-decoration: none;
+    list-style-type: none;
+   
+  
+    
+}
+.topbar ul li a{
+    padding: 15px ;
+    text-decoration: none;
+    color: rgb(69, 70, 69);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.topbar ul li input{
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+}
+.topbar ul li a:hover{
+    background-color: chartreuse;
+    color: beige;
+}
+
+.set_goal{
+    padding-left: 30px;
+}
+/* topbar ends */
+
+/* topbar2 start */
+.topbar2{
+    width: 100%;
+    height:4%;
+    float: left;
+    background-color: rgb(34, 32, 32);
+    text-align: center;
+}
+.topbar2 ul li{
+    display: inline-block;
+    padding-top:11px;
+    padding-left: 10px;
+ 
+    list-style-type:none;
+}
+
+.topbar2 ul li a{
+    color: white;
+    padding:11px;
+    text-decoration: none;
+}
+.topbar2 ul li a:hover{
+    background-color: black;
+    color: aquamarine;
+}
+
+/* topbar2 end */
+
+/* sidebar start */
+.sidebar{
+    height:90%;
+    width:20%;
+    float: left;
+    background-color: antiquewhite;
+}
+.sidebar ul li{
+    list-style-type: none;
+    padding-left: 20px;
+    padding-top: 6px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    color: black;
+    padding:7px
+}
+.sidebar ul li a:hover{
+    background-color: rgb(102, 187, 63);
+
+}
+/* sidebar ends */
+
+/* body1 start */
+.body1{
+    height:10%;
+    width:80%;
+    float:left;
+}
+.body1 h1{
+    padding-left: 20px;
+}
+.body1 .home{
+    background-color: rgb(30, 187, 96);
+    padding:10px;
+    margin:15px;
+    margin-left: 18px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+.body1 .next{
+    background-color: rgb(30, 187, 96);
+    padding:10px;
+    margin:15px;
+    margin-left: 18px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    margin-left: 715px;
+    border-radius: 10px;
+}
+.body1  a{
+    text-decoration: none;
+    color:rgb(250, 249, 248);
+}
+/* body1 end */
+
+/* body2 start */
+.body2{
+    height:25%;
+    width: 80%;
+    float:left;
+    background-color: rgb(208, 228, 218);
+    margin-top: 14px;
+}
+
+.body2 .study{
+    background-color: rgb(30, 187, 96);
+    padding:10px;
+    margin:15px;
+    margin-left: 18px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.body2 p{
+    margin-left: 18px;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+.body2  a{
+    text-decoration: none;
+    color:rgb(250, 249, 248);
+}
+
+/* body2 ends */
+
+/* body3 starts */
+.body3{
+    height:10%;
+    width: 80%;
+    float: left;
+}
+/* body3 ends */
